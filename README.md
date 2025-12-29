@@ -95,6 +95,29 @@ CREATE TABLE cust_details (
     Customer_Satisfaction_Score INT
 );
 ```
+## 🔄 Data Loading Process
+
+### 🔹 Load Credit Card Transaction Data
+```sql
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/credit_card.csv'
+INTO TABLE cc_details
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+```
+### 🔹 Load Customer Details Data
+
+The following SQL command is used to import customer demographic data from a CSV file into the `cust_details` table.
+
+```sql
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/customer.csv'
+INTO TABLE cust_details
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+```
 ## 📊 Dashboard Features
 
 ### 🔹 Key KPIs
