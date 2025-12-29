@@ -1,4 +1,7 @@
-# 📊 Credit Card Transaction Dashboard | Power BI Project
+<!-- Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=180&section=header&text=💳%20Credit%20Card%20Transaction%20Dashboard&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+</p>
 
 ## 📌 Project Overview
 
