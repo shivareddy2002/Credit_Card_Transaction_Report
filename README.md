@@ -68,3 +68,98 @@ CREATE TABLE cc_details (
     Interest_Earner DECIMAL(10,3),
     Delinquent_Acc VARCHAR(5)
 );
+
+```
+
+### 🔹 Customer Details Table (`cust_details`)
+
+```sql
+CREATE TABLE cust_details (
+    Client_Num INT,
+    Customer_Age INT,
+    Gender VARCHAR(10),
+    Dependent_Count INT,
+    Education_Level VARCHAR(50),
+    Maritial_Status VARCHAR(20),
+    State_cd VARCHAR(50),
+    Zipcode VARCHAR(20),
+    car_Owner VARCHAR(10),
+    House_Owner VARCHAR(5),
+    Personal_Loan VARCHAR(5),
+    Contact VARCHAR(20),
+    Customer_Job VARCHAR(20),
+    Income INT,
+    Customer_Satisfaction_Score INT
+);
+```
+## 📊 Dashboard Features
+
+### 🔹 Key KPIs
+- 💰 **Total Revenue**
+- 💳 **Total Transaction Amount**
+- 🔢 **Transaction Count**
+- 💸 **Interest Earned**
+- 👥 **Customer Count**
+- ⚠️ **Delinquency Rate**
+- ✅ **Activation Rate**
+
+---
+
+### 🔹 Interactive Analysis
+The dashboard includes dynamic filters for:
+- **Quarter**
+- **Card Category**
+- **Gender**
+- **Income Group**
+- **Education Level**
+- **Transaction Type** (Swipe / Chip / Online)
+
+---
+
+## 📈 Key Insights
+- 💰 **Total Revenue:** 55M  
+- 💳 **Blue & Silver cards** contribute ~93% of total transactions  
+- 🔄 **Swipe transactions** dominate overall usage  
+- 👥 Significant variation across **age, income, and job groups**  
+- 🌎 **TX, NY & CA** together contribute ~68% of total revenue  
+- ⚠️ **Delinquent Rate:** 6.06%  
+- ✅ **Activation Rate:** 57.5%  
+
+---
+
+## 📤 Export & Sharing
+Dashboard outputs were shared as:
+- **PDF reports**
+- **Power BI Service dashboards**
+
+Used for:
+- **Weekly performance reviews**
+- **Business & strategic discussions**
+
+---
+
+## 🚀 Future Enhancements
+- Predictive analytics for:
+  - **Revenue forecasting**
+  - **Delinquency prediction**
+- **Automated data refresh** using Power BI Service
+- **Drill-through customer-level analysis**
+- Integration with **Machine Learning models**
+
+---
+
+## 👨‍💻 Author
+**Lomada Siva Gangi Reddy**  
+🎓 B.Tech CSE (Data Science), RGMCET (2021–2025)  
+🎯 Aspiring Data Analyst  
+
+📞 **Phone:** 9346493592  
+
+🔗 **LinkedIn:**  
+https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/  
+
+💻 **GitHub:**  
+https://github.com/shivareddy2002  
+
+🌐 **Portfolio:**  
+https://lsgr-portfolio-pulse.lovable.app/
