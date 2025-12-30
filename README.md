@@ -10,6 +10,15 @@ The **Credit Card Transaction Dashboard** is a **Business Intelligence project b
 This dashboard provides **real-time, interactive insights** that help stakeholders monitor revenue, transactions, customer segments, and operational metrics for data-driven decision-making.
 
 ---
+## 🖼️ Dashboard Screenshots
+
+### 📊 Credit Card Transaction Dashboard
+![Credit Card Transaction Dashboard](https://raw.githubusercontent.com/shivareddy2002/Credit_Card_Transaction_Report/main/Galary/credit_card_report.png)
+
+---
+
+### 👥 Customer Transaction Analysis Dashboard
+![Customer Transaction Analysis Dashboard](https://raw.githubusercontent.com/shivareddy2002/Credit_Card_Transaction_Report/main/Galary/customer_trans_report.png)
 
 ## 🎯 Project Objective
 
