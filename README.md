@@ -5,9 +5,17 @@
 
 ## 📌 Project Overview
 
-The **Credit Card Transaction Dashboard** is a **Business Intelligence project built using Power BI, SQL, and DAX** to analyze **financial performance, customer behavior, and transaction trends** from credit card data.
+In today’s data-driven financial environment, organizations require **real-time visibility** into transaction patterns, customer demographics, and revenue trends to support informed decision-making.
 
-This dashboard provides **real-time, interactive insights** that help stakeholders monitor revenue, transactions, customer segments, and operational metrics for data-driven decision-making.
+This project focuses on building an **interactive Credit Card Transaction Dashboard** that:
+- Stores structured data in a **SQL database**
+- Models and transforms data in **Power BI**
+- Uses **DAX measures** for KPIs and time intelligence
+- Provides **weekly, quarterly, and YTD insights**
+
+The dashboard enables stakeholders to monitor performance, identify trends, and evaluate risk efficiently.
+
+---
 
 ---
 ## 🖼️ Dashboard Screenshots
@@ -20,18 +28,33 @@ This dashboard provides **real-time, interactive insights** that help stakeholde
 ### 👥 Customer Transaction Analysis Dashboard
 ![Customer Transaction Analysis Dashboard](https://raw.githubusercontent.com/shivareddy2002/Credit_Card_Transaction_Report/main/Galary/customer_trans_report.png)
 
-## 🎯 Project Objective
+## 🎯 Project Objectives
 
-- Build an **interactive Power BI dashboard** for credit card transactions  
-- Deliver **real-time insights** into:
-  - Revenue & interest
-  - Transaction amount & count
-  - Customer demographics
-  - Card & usage patterns
-- Enable **weekly, quarterly, and YTD performance analysis**
+- Build an **interactive Power BI dashboard** for credit card analytics  
+- Provide insights into:
+  - Revenue & interest earned
+  - Transaction amount & transaction count
+  - Customer demographics & behavior
+  - Card category & usage patterns  
+- Enable **Weekly, Quarterly, and YTD performance tracking**
+- Support **data-driven business decisions**
 
 ---
+## 🏗️ Project Architecture & Workflow
 
+**End-to-End Workflow**
+
+1. CSV data preparation  
+2. SQL database creation  
+3. Table design & schema definition  
+4. Data loading using `LOAD DATA INFILE`  
+5. Data validation & corrections  
+6. Power BI data modeling  
+7. DAX calculations & KPI creation  
+8. Interactive dashboard development  
+9. Insight extraction & reporting  
+
+---
 ## 🗂️ Data Source
 
 - Data stored and managed in a **SQL Database**
@@ -52,10 +75,18 @@ https://github.com/shivareddy2002/Credit_Card_Transaction_Report
 - **DAX** – Measures, KPIs & time intelligence  
 - **Data Modeling** – Relationships & schema design  
 - **Data Visualization** – KPIs, charts, slicers  
+- **CSV Files** – Raw data source  
 
 ---
 
 ## 🧱 Database Schema
+
+### 🗄️ Database Creation (SQL)
+
+```sql
+CREATE DATABASE ccdb;
+USE ccdb;
+```
 
 ### 1️⃣ Credit Card Details Table (`cc_details`)
 
