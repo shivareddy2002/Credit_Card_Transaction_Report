@@ -17,7 +17,6 @@ The dashboard enables stakeholders to monitor performance, identify trends, and 
 
 ---
 
----
 ## 🖼️ Dashboard Screenshots
 
 ### 📊 Credit Card Transaction Dashboard
@@ -40,6 +39,7 @@ The dashboard enables stakeholders to monitor performance, identify trends, and 
 - Support **data-driven business decisions**
 
 ---
+
 ## 🏗️ Project Architecture & Workflow
 
 **End-to-End Workflow**
@@ -55,6 +55,7 @@ The dashboard enables stakeholders to monitor performance, identify trends, and 
 9. Insight extraction & reporting  
 
 ---
+
 ## 🗂️ Data Source
 
 - Data stored and managed in a **SQL Database**
