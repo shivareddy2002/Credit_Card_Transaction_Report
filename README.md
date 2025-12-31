@@ -63,11 +63,6 @@ The dashboard enables stakeholders to monitor performance, identify trends, and 
   - `cc_details` – Credit card transaction data
   - `cust_details` – Customer demographic data
 
-🔗 **GitHub Repository:**  
-https://github.com/shivareddy2002/Credit_Card_Transaction_Report
-
----
-
 ## 🛠️ Tech Stack & Tools Used
 
 - **Power BI** – Dashboard development & visualization  
@@ -205,6 +200,12 @@ Used for:
 ---
 ## ✨ 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱 & 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗙𝗶𝗹𝗲𝘀 (𝗚𝗼𝗼𝗴𝗹𝗲 𝗗𝗿𝗶𝘃𝗲)
 🔗 https://drive.google.com/drive/folders/16T65EOoXPGIZTcLpNTc-AbGHeKpTW9zG?usp=sharing
+
+## ✨ GitHub Repository  
+🔗 https://github.com/shivareddy2002/Credit_Card_Transaction_Report
+
+---
+
 ## 🚀 Future Enhancements
 - Predictive analytics for:
   - **Revenue forecasting**
