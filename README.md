@@ -167,17 +167,6 @@ IGNORE 1 ROWS;
 
 ---
 
-### 🔹 Interactive Analysis
-The dashboard includes dynamic filters for:
-- **Quarter**
-- **Card Category**
-- **Gender**
-- **Income Group**
-- **Education Level**
-- **Transaction Type** (Swipe / Chip / Online)
-
----
-
 ## 📈 Key Insights
 - 💰 **Total Revenue:** 55M  
 - 💳 **Blue & Silver cards** contribute ~93% of total transactions  
