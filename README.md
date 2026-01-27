@@ -52,7 +52,33 @@ The dashboard enables stakeholders to monitor performance, identify trends, and 
 6. Power BI data modeling  
 7. DAX calculations & KPI creation  
 8. Interactive dashboard development  
-9. Insight extraction & reporting  
+9. Insight extraction & reporting
+     
+```mermaid
+
+flowchart LR
+    A[CSV Data Collection] --> B[SQL Database Creation]
+    B --> C[Table Design: cc_details & cust_details]
+    C --> D[Load Data using LOAD DATA INFILE]
+    D --> E[Data Validation & Cleaning in SQL]
+    E --> F[Connect SQL Database to Power BI]
+    F --> G[Data Modeling & Relationships]
+    G --> H[DAX Measures & Calculations]
+    H --> I[Interactive Dashboard Design]
+    I --> J[Insights, Export & Sharing]
+
+    %% Styles
+    style A fill:#FFD54F,stroke:#F57F17,stroke-width:2px,color:#000;
+    style B fill:#4FC3F7,stroke:#0277BD,stroke-width:2px,color:#fff;
+    style C fill:#AED581,stroke:#33691E,stroke-width:2px,color:#000;
+    style D fill:#FFCC80,stroke:#EF6C00,stroke-width:2px,color:#000;
+    style E fill:#81D4FA,stroke:#01579B,stroke-width:2px,color:#000;
+    style F fill:#BA68C8,stroke:#4A148C,stroke-width:2px,color:#fff;
+    style G fill:#90CAF9,stroke:#0D47A1,stroke-width:2px,color:#000;
+    style H fill:#CE93D8,stroke:#6A1B9A,stroke-width:2px,color:#000;
+    style I fill:#FF8A65,stroke:#BF360C,stroke-width:2px,color:#fff;
+    style J fill:#B39DDB,stroke:#311B92,stroke-width:2px,color:#fff;
+```
 
 ---
 
@@ -205,31 +231,6 @@ Used for:
 - Integration with **Machine Learning models**
 
 ---
-```mermaid
-
-flowchart LR
-    A[CSV Data Collection] --> B[SQL Database Creation]
-    B --> C[Table Design: cc_details & cust_details]
-    C --> D[Load Data using LOAD DATA INFILE]
-    D --> E[Data Validation & Cleaning in SQL]
-    E --> F[Connect SQL Database to Power BI]
-    F --> G[Data Modeling & Relationships]
-    G --> H[DAX Measures & Calculations]
-    H --> I[Interactive Dashboard Design]
-    I --> J[Insights, Export & Sharing]
-
-    %% Styles
-    style A fill:#FFD54F,stroke:#F57F17,stroke-width:2px,color:#000;
-    style B fill:#4FC3F7,stroke:#0277BD,stroke-width:2px,color:#fff;
-    style C fill:#AED581,stroke:#33691E,stroke-width:2px,color:#000;
-    style D fill:#FFCC80,stroke:#EF6C00,stroke-width:2px,color:#000;
-    style E fill:#81D4FA,stroke:#01579B,stroke-width:2px,color:#000;
-    style F fill:#BA68C8,stroke:#4A148C,stroke-width:2px,color:#fff;
-    style G fill:#90CAF9,stroke:#0D47A1,stroke-width:2px,color:#000;
-    style H fill:#CE93D8,stroke:#6A1B9A,stroke-width:2px,color:#000;
-    style I fill:#FF8A65,stroke:#BF360C,stroke-width:2px,color:#fff;
-    style J fill:#B39DDB,stroke:#311B92,stroke-width:2px,color:#fff;
-```
 
 ## 👨‍💻 Author  
 
